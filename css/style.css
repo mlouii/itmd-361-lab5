@@ -63,12 +63,13 @@ h1:hover {
 img{
   width: 15em;
   height: 15em;
+  transition: 700ms ease;
 }
 
 img:hover {
   width: 20em;
   height: 20em;
-  transition: 700ms ease;
+  
 }
 
 .merc{
