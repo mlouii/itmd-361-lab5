@@ -1,0 +1,107 @@
+
+
+.table_header {
+  font-size: 1.5em;
+}
+
+.table_image {
+  padding-left: 0px;
+}
+
+table {
+  border-bottom: 3px solid;
+  padding-bottom: 2%;
+}
+
+td {
+  margin: 10px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  font-size: 1.25em;
+}
+
+.left_border {
+  border-left: 2px solid;
+  font-size: 1em;
+  font-family: 'Courier New', monospace;
+}
+  
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #FAF9F6;
+}
+
+tr {
+  padding-top: 2em;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 2%;
+  border-bottom: 3px solid;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+}
+
+h1:hover {
+  letter-spacing: 2px;
+  font-variation-settings: "wght" 582; 
+  text-shadow: 5px 5px grey
+}
+
+img{
+  width: 15em;
+  height: 15em;
+}
+
+img:hover {
+  width: 20em;
+  height: 20em;
+  transition: 700ms ease;
+}
+
+.merc{
+  transition: 200ms ease;
+}
+
+.venus{
+  transition: 200ms ease;
+}
+.earth{
+  transition: 200ms ease;
+}
+.mars{
+  transition: 200ms ease;
+}
+
+.merc:hover {
+  background-color: 	#C0C0C0;
+  font-weight: bold;
+}
+
+.venus:hover {
+  background-color: 	#e39e1c;
+  font-weight: bold;
+}
+
+.earth:hover {
+  background-color: 	#6096B4;
+  font-weight: bold;
+}
+
+.mars:hover {
+  background-color: 	#c1440e;
+  font-weight: bold;
+  color: white;
+}
